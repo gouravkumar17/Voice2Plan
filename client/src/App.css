@@ -1,0 +1,169 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #dbeafe, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  /* Main Container */
+  .container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  /* Title and Status */
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e3a8a;
+    margin-bottom: 5px;
+  }
+  
+  .status {
+    color: #6366f1;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  /* Card Box */
+  .card {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 15px;
+  }
+  
+  /* Start Recording Button */
+  .record-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .record-btn .icon {
+    margin-right: 8px;
+  }
+  
+  .record-btn:hover {
+    background-color: #4f46e5;
+  }
+  
+  /* Subtitle */
+  .subtitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: left;
+  }
+  
+  /* Transcript Box */
+  .transcript-box {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #6b7280;
+    text-align: left;
+    margin-top: 5px;
+    min-height: 50px;
+  }
+  
+  /* List Items (Tasks, Events, Notes) */
+  .list-item {
+    background: #f3f4f6;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  
+  .list-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Share Button */
+  .share-btn {
+    background-color: #6366f1;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .share-btn .icon {
+    margin-right: 5px;
+  }
+  
+  .share-btn:hover {
+    background-color: #4f46e5;
+  }
+  /* Save Notes Button */
+.save-btn {
+  background: linear-gradient(45deg, #4f46e5, #6366f1);
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.save-btn .icon {
+  margin-right: 8px;
+}
+
+.save-btn:hover {
+  background: linear-gradient(45deg, #4338ca, #4f46e5);
+  transform: scale(1.05);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.3);
+}
+
+.save-btn:active {
+  transform: scale(0.95);
+}
+.upload-btn {
+  background-color: #6366f1;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.upload-btn .icon {
+  margin-right: 8px;
+}
+
+.upload-btn:hover {
+  background-color: #4f46e5;
+}
